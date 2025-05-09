@@ -45,20 +45,20 @@ Track time specific to tasks and projects</h2>
                   <Clock className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
                     
-                    <p>Simple and intuitive time tracking for your entire team.</p>
+                    <p className="text-sm">Your team can clock-in, take breaks, grab lunch or punch out for the day - all with one click.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <ListCheck className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">Tag time to tasks/clients</h4>
-                    <p>Associate work hours with specific projects and clients.</p>
+                    
+                    <p className="text-sm">Assign tasks and projects so your team can log their hours for task, projects, and clients.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <CalendarDays className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">Overview of what was worked on</h4>
+                    
                     <p>Get detailed insights into how time was spent across your team.</p>
                   </div>
                 </li>
