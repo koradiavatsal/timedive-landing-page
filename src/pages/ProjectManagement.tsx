@@ -60,8 +60,8 @@ const ProjectManagement = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
               <div className="grid grid-cols-1 gap-6">
-                <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Kanban board" className="w-full h-auto rounded-lg shadow-md" />
-                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Project timeline" className="w-full h-auto rounded-lg shadow-md" />
+                <img alt="Kanban board" className="w-full h-auto rounded-lg shadow-md" src="/lovable-uploads/53b6d65b-48d5-4197-ae67-e026c5855040.png" />
+                <img alt="Project timeline" className="w-full h-auto rounded-lg shadow-md" src="/lovable-uploads/68d120cb-12b3-47d5-9d79-9ad5f8e89f7c.png" />
               </div>
             </div>
             <div className="order-1 md:order-2">
