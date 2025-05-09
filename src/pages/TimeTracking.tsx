@@ -38,7 +38,7 @@ const TimeTracking = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl mb-6 md:text-sm font-normal">
+              <h2 className="text-3xl mb-6 md:text-xl font-medium">
 Track time specific to tasks and projects</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -59,13 +59,13 @@ Track time specific to tasks and projects</h2>
                   <CalendarDays className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
                     
-                    <p>Get detailed insights into how time was spent across your team.</p>
+                    <p className="text-sm">Complete overview on what your team has worked on so you can stop guessing "What did John work on last Friday?"</p>
                   </div>
                 </li>
               </ul>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Dashboard with charts and graphs" className="w-full h-auto" />
+              <img alt="Dashboard with charts and graphs" className="w-full h-auto" src="/lovable-uploads/d311548e-55f2-488b-978e-740af8ddea3c.png" />
             </div>
           </div>
         </div>
