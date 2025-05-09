@@ -1,26 +1,18 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ChevronDown } from 'lucide-react';
-
 const ProjectManagement = () => {
-  return (
-    <div className="flex flex-col min-h-screen">
+  return <div className="flex flex-col min-h-screen">
       <Navbar />
       
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-[#EAF6FF] to-[#CDEBFF] px-6 lg:px-24 pt-16 pb-32 overflow-hidden">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-3xl md:text-5xl font-bold text-[#1A1A1A] mb-4">Project Management</h1>
-          <p className="text-lg md:text-xl text-[#444444] mb-8 max-w-3xl mx-auto">
+          <p className="text-lg text-[#444444] mb-8 max-w-3xl mx-auto font-normal md:text-sm">
             Create boards, add projects, and prioritize tasks so your team has clarity on what to work on and the goal.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -56,11 +48,7 @@ const ProjectManagement = () => {
               </ul>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
-                alt="Project management dashboard" 
-                className="w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Project management dashboard" className="w-full h-auto" />
             </div>
           </div>
         </div>
@@ -72,16 +60,8 @@ const ProjectManagement = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
               <div className="grid grid-cols-1 gap-6">
-                <img 
-                  src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
-                  alt="Kanban board" 
-                  className="w-full h-auto rounded-lg shadow-md"
-                />
-                <img 
-                  src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
-                  alt="Project timeline" 
-                  className="w-full h-auto rounded-lg shadow-md"
-                />
+                <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Kanban board" className="w-full h-auto rounded-lg shadow-md" />
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Project timeline" className="w-full h-auto rounded-lg shadow-md" />
               </div>
             </div>
             <div className="order-1 md:order-2">
@@ -141,11 +121,7 @@ const ProjectManagement = () => {
               </ul>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
-                alt="Project milestone tracking" 
-                className="w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Project milestone tracking" className="w-full h-auto" />
             </div>
           </div>
         </div>
@@ -157,16 +133,8 @@ const ProjectManagement = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <div className="order-2 md:order-1">
               <div className="grid grid-cols-1 gap-6">
-                <img 
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
-                  alt="Analytics dashboard" 
-                  className="w-full h-auto rounded-lg shadow-md"
-                />
-                <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
-                  alt="Analytics charts" 
-                  className="w-full h-auto rounded-lg shadow-md"
-                />
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Analytics dashboard" className="w-full h-auto rounded-lg shadow-md" />
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Analytics charts" className="w-full h-auto rounded-lg shadow-md" />
               </div>
             </div>
             <div className="order-1 md:order-2">
@@ -253,8 +221,6 @@ const ProjectManagement = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default ProjectManagement;
