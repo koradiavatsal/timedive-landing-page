@@ -131,7 +131,7 @@ Track time specific to tasks and projects</h2>
               </ul>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Mobile screen with map" className="w-full h-auto" />
+              <img alt="Mobile screen with map" className="w-full h-auto" src="/lovable-uploads/d827cd4b-a2a9-4d6b-8dc7-42b641d05762.png" />
             </div>
           </div>
         </div>
