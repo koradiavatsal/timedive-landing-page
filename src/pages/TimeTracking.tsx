@@ -145,7 +145,7 @@ Track time specific to tasks and projects</h2>
               <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Reports dashboard" className="w-full h-auto" />
             </div>
             <div className="order-1 md:order-2">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Timesheet and payroll-ready reports</h2>
+              <h2 className="text-3xl mb-6 font-normal md:text-lg">Timesheet and payroll-ready reports</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <ListCheck className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
