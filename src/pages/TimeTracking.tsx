@@ -76,7 +76,7 @@ Track time specific to tasks and projects</h2>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 rounded-lg overflow-hidden shadow-lg">
-              <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Punch board interface" className="w-full h-auto" />
+              <img alt="Punch board interface" className="w-full h-auto" src="/lovable-uploads/ed116680-1e7a-4733-bf37-83c82ec8a1a4.png" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-3xl mb-6 font-medium md:text-lg">Manage real-time visibility on your team's working status</h2>
