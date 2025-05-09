@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import TimeTracking from "./pages/TimeTracking";
 import ProjectManagement from "./pages/ProjectManagement";
 import LeaveManagement from "./pages/LeaveManagement";
+import TimediveAI from "./pages/TimediveAI";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/time-tracking" element={<TimeTracking />} />
           <Route path="/project-management" element={<ProjectManagement />} />
           <Route path="/leave-management" element={<LeaveManagement />} />
+          <Route path="/timedive-ai" element={<TimediveAI />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
