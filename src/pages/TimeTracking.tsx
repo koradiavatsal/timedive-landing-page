@@ -38,7 +38,7 @@ const TimeTracking = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl mb-6 md:text-xl font-medium">
+              <h2 className="text-3xl mb-6 font-medium md:text-lg">
 Track time specific to tasks and projects</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -79,27 +79,27 @@ Track time specific to tasks and projects</h2>
               <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Punch board interface" className="w-full h-auto" />
             </div>
             <div className="order-1 md:order-2">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Manage real-time visibility on your team's working status</h2>
+              <h2 className="text-3xl mb-6 font-medium md:text-lg">Manage real-time visibility on your team's working status</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <Clock className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
                     <h4 className="font-semibold text-lg">Who's working</h4>
-                    <p>See who's actively working in real-time.</p>
+                    
                   </div>
                 </li>
                 <li className="flex items-start">
                   <ListCheck className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
                     <h4 className="font-semibold text-lg">On break</h4>
-                    <p>Track break times and durations automatically.</p>
+                    
                   </div>
                 </li>
                 <li className="flex items-start">
                   <Zap className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">Signed off</h4>
-                    <p>Know exactly when team members have ended their workday.</p>
+                    <h4 className="font-semibold text-lg">or signed off for the day</h4>
+                    
                   </div>
                 </li>
               </ul>
