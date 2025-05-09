@@ -150,22 +150,22 @@ Track time specific to tasks and projects</h2>
                 <li className="flex items-start">
                   <ListCheck className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">Get breakdowns by project/client</h4>
-                    <p>See exactly how much time was spent on each project or client.</p>
+                    
+                    <p className="text-sm">Get a detailed break-down of time logged on every project, task, or client, generate client report, and drop invoices hassle-free</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <Zap className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">One-click exports</h4>
-                    <p>Export reports in various formats with a single click.</p>
+                    
+                    <p className="text-sm">Generate timesheets with the click of a button and skip manual calculations.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <Clock className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">Integrate with payroll systems</h4>
-                    <p>Connect with your existing payroll systems for seamless processing.</p>
+                    
+                    <p className="text-sm">Integrate your payroll software and run the report smoother, faster, and error free.</p>
                   </div>
                 </li>
               </ul>
