@@ -1,32 +1,19 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { 
-  Clock, 
-  ListCheck, 
-  CalendarDays, 
-  Zap 
-} from 'lucide-react';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-
+import { Clock, ListCheck, CalendarDays, Zap } from 'lucide-react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 const TimeTracking = () => {
-  return (
-    <div className="min-h-screen flex flex-col">
+  return <div className="min-h-screen flex flex-col">
       <Navbar />
       
       {/* Hero Section */}
       <section className="bg-timedive-light-blue py-16 md:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="mb-4 text-4xl md:text-5xl font-bold">Time Tracking</h1>
-            <p className="mb-8 text-xl md:text-2xl text-timedive-dark-text max-w-3xl mx-auto">
+            <h1 className="mb-4 text-4xl font-bold md:text-4xl">Time Tracking</h1>
+            <p className="mb-8 text-xl text-timedive-dark-text max-w-3xl mx-auto md:text-sm">
               Keep time tracking seamless and run payroll on point, no matter how the team works.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
@@ -51,12 +38,13 @@ const TimeTracking = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Track time specific to tasks and projects</h2>
+              <h2 className="text-3xl mb-6 md:text-sm font-normal">
+Track time specific to tasks and projects</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <Clock className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">Clock in/out</h4>
+                    
                     <p>Simple and intuitive time tracking for your entire team.</p>
                   </div>
                 </li>
@@ -77,11 +65,7 @@ const TimeTracking = () => {
               </ul>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
-                alt="Dashboard with charts and graphs" 
-                className="w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Dashboard with charts and graphs" className="w-full h-auto" />
             </div>
           </div>
         </div>
@@ -92,11 +76,7 @@ const TimeTracking = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 rounded-lg overflow-hidden shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
-                alt="Punch board interface" 
-                className="w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Punch board interface" className="w-full h-auto" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Manage real-time visibility on your team's working status</h2>
@@ -151,11 +131,7 @@ const TimeTracking = () => {
               </ul>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
-                alt="Mobile screen with map" 
-                className="w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Mobile screen with map" className="w-full h-auto" />
             </div>
           </div>
         </div>
@@ -166,11 +142,7 @@ const TimeTracking = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 rounded-lg overflow-hidden shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
-                alt="Reports dashboard" 
-                className="w-full h-auto"
-              />
+              <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Reports dashboard" className="w-full h-auto" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Timesheet and payroll-ready reports</h2>
@@ -261,8 +233,6 @@ const TimeTracking = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default TimeTracking;
