@@ -33,22 +33,22 @@ const ProjectManagement = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <div>
               <h3 className="uppercase text-sm font-semibold text-[#6E6E6E] mb-2">PROJECTS AND TASKS</h3>
-              <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-6">
+              <h2 className="text-2xl font-bold text-[#1A1A1A] mb-6 md:text-lg">
                 Kick off the projects quickly
               </h2>
               <ul className="space-y-4">
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Create boards for different departments and assign users to work together on specific projects.</p>
+                  <p className="text-sm">Create boards for different departments and assign projects to the right team members in minutes.</p>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Add essential details, pages and card details, sub-tasks, priorities, and additional notes to keep everyone on the same page.</p>
+                  <p className="text-sm">Add essential details (start and end dates, to-do lists, priorities, and additional notes) to keep everyone on the same page.</p>
                 </li>
               </ul>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Project management dashboard" className="w-full h-auto" />
+              <img alt="Project management dashboard" className="w-full h-auto" src="/lovable-uploads/c934af8c-4f74-4472-bf16-9e1f031a21d6.png" />
             </div>
           </div>
         </div>
@@ -66,21 +66,21 @@ const ProjectManagement = () => {
             </div>
             <div className="order-1 md:order-2">
               <h3 className="uppercase text-sm font-semibold text-[#6E6E6E] mb-2">TEAM ALIGNMENT</h3>
-              <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-6">
+              <h2 className="text-2xl font-bold text-[#1A1A1A] mb-6 md:text-lg">
                 Stay in sync and on schedule
               </h2>
               <ul className="space-y-4">
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Explore how-lists into visualized tasks at each stage, ensuring team plans aligned and on track.</p>
+                  <p className="text-sm">Kanban view lets you visualize tasks at each stage, ensuring team stays aligned and on track. </p>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Easily move tasks through different process stages in your projects.</p>
+                  <p className="text-sm">Create project dependencies and move project cards across different stages as they progress. </p>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Track progress with multiple views (List, Kanban, Gantt chart, etc).</p>
+                  <p className="text-sm">Track progress with multiple views (List view, Gantt chart, Burndown chart, etc).</p>
                 </li>
               </ul>
             </div>
