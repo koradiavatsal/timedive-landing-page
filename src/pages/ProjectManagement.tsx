@@ -102,21 +102,21 @@ const ProjectManagement = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <div>
               <h3 className="uppercase text-sm font-semibold text-[#6E6E6E] mb-2">PROGRESS REPORTING</h3>
-              <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-6">
+              <h2 className="text-2xl font-bold text-[#1A1A1A] mb-6 md:text-lg">
                 Set clear milestones and deadlines
               </h2>
               <ul className="space-y-4">
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Set milestones and rate project or task key achievements and mark progress.</p>
+                  <p className="text-sm">Set milestones for each project to mark key achievements and track progress.</p>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Automate deadline reminders to ensure tasks will meet deadlines and avoid bottlenecks.</p>
+                  <p className="text-sm">Automate deadline reminders to ensure tasks are completed on time</p>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Collaborate seamlessly by commenting directly on tasks and projects and your team is notified.</p>
+                  <p className="text-base">Collaborate seamlessly by commenting directly on tasks and projects and your team is notified.</p>
                 </li>
               </ul>
             </div>
