@@ -113,19 +113,19 @@ Track time specific to tasks and projects</h2>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">No more awkward check-ins</h2>
-              <p className="mb-6 text-lg">Great for hybrid and remote teams who need flexibility but still want accountability.</p>
+              <h2 className="text-3xl mb-6 font-medium md:text-lg">No more awkward check-ins</h2>
+              
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <CalendarDays className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <p>Highlights accurate time tracking during remote meetings.</p>
+                    <p className="font-normal text-sm">For hybrid and remote teams - stay on top of time no matter where your team is.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <Zap className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <p>Verify location for field teams and remote workers.</p>
+                    <p className="text-sm">Ensure accurate time tracking during on-site work or meetings</p>
                   </div>
                 </li>
               </ul>
