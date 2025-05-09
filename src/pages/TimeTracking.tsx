@@ -186,7 +186,7 @@ Track time specific to tasks and projects</h2>
       {/* Call to Action Section */}
       <section className="py-16 md:py-20 bg-timedive-light-blue">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Make every hour count</h2>
+          <h2 className="text-3xl md:text-4xl mb-4 font-semibold">Make every hour count</h2>
           <p className="mb-8 max-w-3xl mx-auto text-base">
             Get full team-visibility, and ensure everyone spends time where it matters the most
           </p>
