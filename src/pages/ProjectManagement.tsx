@@ -11,7 +11,7 @@ const ProjectManagement = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-[#EAF6FF] to-[#CDEBFF] px-6 lg:px-24 pt-16 pb-32 overflow-hidden">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-3xl md:text-5xl font-bold text-[#1A1A1A] mb-4">Project Management</h1>
+          <h1 className="text-3xl text-[#1A1A1A] mb-4 md:text-4xl font-bold">Project Management</h1>
           <p className="text-lg text-[#444444] mb-8 max-w-3xl mx-auto font-normal md:text-sm">
             Create boards, add projects, and prioritize tasks so your team has clarity on what to work on and the goal.
           </p>
