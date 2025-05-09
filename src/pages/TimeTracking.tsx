@@ -142,7 +142,7 @@ Track time specific to tasks and projects</h2>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 rounded-lg overflow-hidden shadow-lg">
-              <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Reports dashboard" className="w-full h-auto" />
+              <img alt="Reports dashboard" className="w-full h-auto" src="/lovable-uploads/18bd24c3-34ab-4f94-90e2-49c3ad41a116.png" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-3xl mb-6 font-normal md:text-lg">Timesheet and payroll-ready reports</h2>
