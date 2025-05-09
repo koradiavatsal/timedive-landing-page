@@ -84,21 +84,21 @@ Track time specific to tasks and projects</h2>
                 <li className="flex items-start">
                   <Clock className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">Who's working</h4>
+                    <h4 className="text-sm font-normal">Who's working</h4>
                     
                   </div>
                 </li>
                 <li className="flex items-start">
                   <ListCheck className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">On break</h4>
+                    <h4 className="text-sm font-normal">On break</h4>
                     
                   </div>
                 </li>
                 <li className="flex items-start">
                   <Zap className="h-6 w-6 text-timedive-accent mr-3 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-lg">or signed off for the day</h4>
+                    <h4 className="text-sm font-normal">or signed off for the day</h4>
                     
                   </div>
                 </li>
