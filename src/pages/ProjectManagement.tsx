@@ -121,7 +121,7 @@ const ProjectManagement = () => {
               </ul>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Project milestone tracking" className="w-full h-auto" />
+              <img alt="Project milestone tracking" className="w-full h-auto" src="/lovable-uploads/92cd0140-dd7a-4d6f-a398-4e1f6ba5e002.png" />
             </div>
           </div>
         </div>
@@ -133,27 +133,27 @@ const ProjectManagement = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <div className="order-2 md:order-1">
               <div className="grid grid-cols-1 gap-6">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Analytics dashboard" className="w-full h-auto rounded-lg shadow-md" />
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Analytics charts" className="w-full h-auto rounded-lg shadow-md" />
+                <img alt="Analytics dashboard" className="w-full h-auto rounded-lg shadow-md" src="/lovable-uploads/522af3b5-df46-4769-a5b8-300bf7a11b20.png" />
+                <img alt="Analytics charts" className="w-full h-auto rounded-lg shadow-md" src="/lovable-uploads/6e4909b9-d05c-4c23-bd46-755ae4428515.png" />
               </div>
             </div>
             <div className="order-1 md:order-2">
               <h3 className="uppercase text-sm font-semibold text-[#6E6E6E] mb-2">REPORTS & ANALYTICS</h3>
-              <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-6">
+              <h2 className="text-2xl font-bold text-[#1A1A1A] mb-6 md:text-lg">
                 Monitor team performance
               </h2>
               <ul className="space-y-4">
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Monitor which projects to push hard and which ones is being appropriately progressed.</p>
+                  <p className="text-sm">Monitor which projects to push hard and which ones is being appropriately progressed.</p>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Individual and team performance tracking log so you can identify blockers and optimize it to move your projects faster.</p>
+                  <p className="text-sm">Individual and team performance tracking log so you can identify blockers and optimize it to move your projects faster.</p>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-[#27AE60] font-bold">•</span>
-                  <p>Visualize your team workload, availability and adjust the distribution.</p>
+                  <p className="text-sm">Visualize your team workload, availability, and adjust the distribution.</p>
                 </li>
               </ul>
             </div>
@@ -173,7 +173,7 @@ const ProjectManagement = () => {
       <section className="px-6 lg:px-24 py-16 bg-gradient-to-b from-[#EAF6FF] to-[#CDEBFF]">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">One tool, across teams</h2>
-          <p className="text-lg md:text-xl text-[#444444] mb-8 max-w-3xl mx-auto">
+          <p className="text-lg mb-8 max-w-3xl mx-auto md:text-lg text-slate-950">
             TimeDive gives your team the clarity, control, and flexibility to move work forward.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
