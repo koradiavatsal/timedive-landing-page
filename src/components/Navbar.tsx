@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
-import { Menu, X, Book, BookText, Library } from "lucide-react";
+import { Menu, X, Book, BookText, Library, Clock, Calculator, Timer, FileText, Convert } from "lucide-react";
 import { Link } from 'react-router-dom';
 import {
   NavigationMenu,
@@ -166,7 +166,60 @@ const Navbar = () => {
             </div>
           </div>
           
-          <a href="#resources" className="text-timedive-gray hover:text-timedive-primary">Resources</a>
+          <div className="relative group">
+            <a href="#resources" className="text-timedive-gray hover:text-timedive-primary">Resources</a>
+            <div className="absolute left-0 mt-2 w-[400px] bg-white shadow-lg rounded-md py-4 px-6 invisible group-hover:visible transition-all">
+              <h4 className="font-semibold text-sm mb-3 text-timedive-black">Free Tools</h4>
+              <div className="grid grid-cols-1 gap-3">
+                <a href="/free-timesheet-generator" className="flex items-center gap-2 p-2 rounded-md hover:bg-timedive-lighter-blue">
+                  <span className="w-8 h-8 bg-timedive-lighter-blue rounded-md flex items-center justify-center">
+                    <Clock className="h-4 w-4 text-timedive-accent" />
+                  </span>
+                  <div>
+                    <span className="font-medium text-timedive-black">Free Timesheet Generator</span>
+                    <p className="text-xs text-timedive-gray">Create timesheets for your team in seconds</p>
+                  </div>
+                </a>
+                <a href="/free-military-time-converter" className="flex items-center gap-2 p-2 rounded-md hover:bg-timedive-lighter-blue">
+                  <span className="w-8 h-8 bg-timedive-lighter-blue rounded-md flex items-center justify-center">
+                    <Convert className="h-4 w-4 text-timedive-accent" />
+                  </span>
+                  <div>
+                    <span className="font-medium text-timedive-black">Free Military Time Converter</span>
+                    <p className="text-xs text-timedive-gray">Convert between standard and military time</p>
+                  </div>
+                </a>
+                <a href="/free-overtime-calculator" className="flex items-center gap-2 p-2 rounded-md hover:bg-timedive-lighter-blue">
+                  <span className="w-8 h-8 bg-timedive-lighter-blue rounded-md flex items-center justify-center">
+                    <Calculator className="h-4 w-4 text-timedive-accent" />
+                  </span>
+                  <div>
+                    <span className="font-medium text-timedive-black">Free Overtime Calculator</span>
+                    <p className="text-xs text-timedive-gray">Calculate overtime hours and costs</p>
+                  </div>
+                </a>
+                <a href="/free-work-hours-calculator" className="flex items-center gap-2 p-2 rounded-md hover:bg-timedive-lighter-blue">
+                  <span className="w-8 h-8 bg-timedive-lighter-blue rounded-md flex items-center justify-center">
+                    <FileText className="h-4 w-4 text-timedive-accent" />
+                  </span>
+                  <div>
+                    <span className="font-medium text-timedive-black">Free Work Hours Calculator</span>
+                    <p className="text-xs text-timedive-gray">Track and calculate work hours accurately</p>
+                  </div>
+                </a>
+                <a href="/free-pomodoro-timer" className="flex items-center gap-2 p-2 rounded-md hover:bg-timedive-lighter-blue">
+                  <span className="w-8 h-8 bg-timedive-lighter-blue rounded-md flex items-center justify-center">
+                    <Timer className="h-4 w-4 text-timedive-accent" />
+                  </span>
+                  <div>
+                    <span className="font-medium text-timedive-black">Free Pomodoro Timer</span>
+                    <p className="text-xs text-timedive-gray">Boost productivity with timed work intervals</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          
           <a href="#pricing" className="text-timedive-gray hover:text-timedive-primary">Pricing</a>
         </div>
 
@@ -217,7 +270,17 @@ const Navbar = () => {
                 </div>
               </div>
               
-              <a href="#resources" className="text-timedive-gray hover:text-timedive-primary py-2">Resources</a>
+              <div className="py-2">
+                <div className="font-medium mb-2">Resources</div>
+                <div className="pl-4 space-y-2">
+                  <a href="/free-timesheet-generator" className="block py-1 text-timedive-gray hover:text-timedive-primary">Free Timesheet Generator</a>
+                  <a href="/free-military-time-converter" className="block py-1 text-timedive-gray hover:text-timedive-primary">Free Military Time Converter</a>
+                  <a href="/free-overtime-calculator" className="block py-1 text-timedive-gray hover:text-timedive-primary">Free Overtime Calculator</a>
+                  <a href="/free-work-hours-calculator" className="block py-1 text-timedive-gray hover:text-timedive-primary">Free Work Hours Calculator</a>
+                  <a href="/free-pomodoro-timer" className="block py-1 text-timedive-gray hover:text-timedive-primary">Free Pomodoro Timer</a>
+                </div>
+              </div>
+              
               <a href="#pricing" className="text-timedive-gray hover:text-timedive-primary py-2">Pricing</a>
               <Button className="primary-button w-full">Get Started Free</Button>
             </div>
